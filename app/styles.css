@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+label {
+    margin: 10px 0;
+}
+
+select, button {
+    margin: 5px 0;
+}
+
+select[disabled], button[disabled] {
+    opacity: 0.5;
+}
+
+/* Added the missing closing brace for the .container styles */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.product-quantity {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 10px;
+    user-select: none;
+}
+
+.product-buttons {
+    display: flex;
+    align-items: center;
+}
+
+#products-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+#sidebar {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.product-type {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#product-types-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#all-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}

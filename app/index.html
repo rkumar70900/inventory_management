@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app/styles.css">
+    <title>Product Inventory</title>
+</head>
+<body>
+    <div id="all-content"> 
+    <div class="sidebar">
+        <ul id="product-types-list">
+            <!-- Product types will be dynamically added here -->
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div id="products-container" class="container">
+            <!-- Product items will be dynamically added here -->
+        </div>
+    </div>
+
+    <div class="container">
+        <label for="product-type">Product Type:</label>
+        <select id="product-type">
+            <!-- Options for product type will be dynamically added using JavaScript -->
+        </select>
+    
+        <label for="product-name">Product Name:</label>
+        <select id="product-name">
+            <!-- Options for product name will be dynamically added using JavaScript -->
+        </select>
+    
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" disabled>
+    
+        <button id="submit-btn">Submit</button>
+    </div>
+</div>
+    
+
+    <script src="/app/script.js"></script>
+</body>
+</html>
